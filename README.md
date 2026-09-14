@@ -9,15 +9,15 @@ A fast, lightweight, and multi-threaded Python tool designed to detect exposed *
 - **URL Normalization & Deduplication:** Prevents duplicate outputs and handles relative/absolute URLs gracefully.
 
 ##  Installation
-'''bash 
+```bash 
 git clone https://github.com/mhmoudjma/dir-listing 
 cd dir-listing
-'''
+```
 
 ## HOW TO USE IT 
-'''bash
+```bash
 dirsearch -u https://EXMPILE.COM | python3 dir-listing.py 
-'''
+```
 ## HOW IT WORK?
 1-Extraction: Parses full URLs and relative paths from standard input or files.
 
